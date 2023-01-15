@@ -9,6 +9,7 @@ Version 1.0
 */
 
 public class Praktikum1 {
+
 }
 
 
