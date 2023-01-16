@@ -12,9 +12,12 @@ import java.util.Scanner;
 
 public class Praktikum1 {
     public static void main(String[] args) {
+        String strInput = " ";
         Scanner sc = new Scanner(System.in);
-        String strInput = sc.nextLine();
         System.out.println("Masukan Data :" +strInput);
+        strInput = sc.nextLine();
+
+
 
         char chx = 'I';
         int intx = chx;
