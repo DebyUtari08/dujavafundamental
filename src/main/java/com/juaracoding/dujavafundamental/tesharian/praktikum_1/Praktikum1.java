@@ -19,23 +19,23 @@ public class Praktikum1 {
 
 
 
-        char chx = 'I';
-        int intx = chx;
-        System.out.println(intx);
+        char chX = 'I';
+        int intX = chX;
+        System.out.println(intX);
 
         int intJumlah = 0;
         for (int i=0; i<strInput.length(); i++) {
-            chx = strInput.charAt(i);
-            intx = chx;
-            if (intx >= 32 && intx <= 90)
+            chX = strInput.charAt(i);
+            intX = chX;
+            if (intX >= 32 && intX <= 90)
                 //if ((intx >= 48 && intx <= 57) || (intx >= 65 && intx <= 90)
                       //  || (intx >= 97 && <= 122)){
                    // if ((intx >= 97 && <= 122))
                     {
-                        intJumlah = intJumlah + intx;
+                        intJumlah = intJumlah + intX;
                     }
 
-                    System.out.println("INDEK KE"+i+" ADALAH HURUF "+chx+" KodeAscii "+ intx);
+                    System.out.println("INDEK KE"+i+" ADALAH HURUF "+chX+" KodeAscii "+ intX);
 
                 }
 
