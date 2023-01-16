@@ -8,9 +8,38 @@ Created on 15/01/2023 14.19
 Version 1.0
 */
 
-public class Praktikum1 {
+import java.util.Scanner;
 
+public class Praktikum1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String strInput = sc.nextLine();
+        System.out.println("Masukan Data :" +strInput);
+
+        char chx = 'I';
+        int intx = chx;
+        System.out.println(intx);
+
+        int intJumlah = 0;
+        for (int i=0; i<strInput.length(); i++) {
+            chx = strInput.charAt(i);
+            intx = chx;
+            if (intx >= 32 && intx <= 90)
+                //if ((intx >= 48 && intx <= 57) || (intx >= 65 && intx <= 90)
+                      //  || (intx >= 97 && <= 122)){
+                   // if ((intx >= 97 && <= 122))
+                    {
+                        intJumlah = intJumlah + intx;
+                    }
+
+                    System.out.println("INDEK KE"+i+" ADALAH HURUF "+chx+" KodeAscii "+ intx);
+
+                }
+
+        System.out.println("Nilai INTX:"+intJumlah);
     }
+}
+
 
 
    
