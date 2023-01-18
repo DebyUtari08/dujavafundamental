@@ -17,7 +17,7 @@ public class Apapun //modifier
 
                 Person p = new Person ();
                 System s = new System ();
-                TestModifier
+                TestModifierFinal () ;
 
                 Apapun classX = new Apapun();
                 System.out.println("PRINT OBJECT CLASS X " + classX);
