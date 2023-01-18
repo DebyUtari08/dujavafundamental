@@ -15,6 +15,10 @@ public class Apapun //modifier
 {
         public static void main(String[] args) {
 
+                Person p = new Person ();
+                System s = new System ();
+                TestModifier
+
                 Apapun classX = new Apapun();
                 System.out.println("PRINT OBJECT CLASS X " + classX);
                 Apapun classX1 = new Apapun();
