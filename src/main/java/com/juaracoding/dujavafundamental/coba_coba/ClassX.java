@@ -8,20 +8,18 @@ Created on 18/01/2023 21.13
 Version 1.0
 */
 
-public class ClassX extends SuperClassx  {
-    public class ClassX extends SuperClassX{
+    public class ClassX extends SuperClassX {
 //	public class ClassX {
 //public class ClassX {
 
 
-        public float returnValue(float x)
-        {
+        public float returnValue(float x) {
 //		setStrS("AS");
 //		System.out.println(strX);
 
             SuperClassX scx = new SuperClassX();
 
-            return 4f*scx.passingValue(x);
+            return 4f * scx.passingValue(x);
         }
 
 //	public void hue(String xClass)
@@ -29,17 +27,16 @@ public class ClassX extends SuperClassx  {
 //		System.out.println(xFunction(xClass));
 //	}
 
-        public void hue(String xClass)
-        {
+        public void hue(String xClass) {
 //		System syz = new System();
             System.out.print("");
-            int x ;
+            int x;
 //		SuperClassX scx ;
 //		scx.xFunction(xClass);
         }
 
-        public static void main(String args[])
-        {
+        public static void main(String args[]) {
+
 
 //		SuperClassX scx = new SuperClassX();
 //		SuperClassX scx ;
@@ -51,15 +48,13 @@ public class ClassX extends SuperClassx  {
 
 //		System.out.println(xstring.substring(4));
 //		System.out.println(xstring.substring(0, xstring.length()-1));
-        }
 
-        public void hitungLuasSegitigaSamaSisi(){
+
+           // public void hitungLuasSegitigaSamaSisi () {
 //		System.out.println("INI HITUNG LUAS SEGITIGA SAMA SISI");
+            }
         }
 
-
-    }
-}
 
 
    

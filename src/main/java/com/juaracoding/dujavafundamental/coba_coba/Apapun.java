@@ -19,11 +19,11 @@ public class Apapun //modifier
                 System s = new System ();
                 TestModifierFinal () ;
 
-                Apapun classX = new Apapun();
+                ClassX classX = new ClassX();
                 System.out.println("PRINT OBJECT CLASS X " + classX);
-                Apapun classX1 = new Apapun();
+                ClassX classX1 = new ClassX();
                 System.out.println("PRINT OBJECT CLASS X1 " + classX1);
-                Apapun classX2 = new Apapun();
+                ClassX classX2 = new ClassX();
                 System.out.println("PRINT OBJECT CLASS X2 " + classX2);
 
                 List list = new ArrayList();
