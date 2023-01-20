@@ -20,9 +20,8 @@ public class Praktikum2 {
         //deklarasi dan inisialisasi
         //deklarasi dan inisialisasi
         Scanner sc = new Scanner(System.in);
-        int intNumber = 0;
+        int intNumber = 0, i = 0;
         float rata, total= 0.0F;
-        int i= 0;
         boolean isAgain = true;
 
 
