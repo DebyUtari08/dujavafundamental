@@ -8,10 +8,26 @@ Created on 20/01/2023 13.36
 Version 1.0
 */
 
+import java.util.Scanner;
+
 public class Praktikum3 {
   /*
 	Soal Nomor 1 Praktikum 3 Java Fundamental
-*/
+  */
+    public static void main (String [] args) {
+    Scanner input = new Scanner(System.in);
+
+    int menit=0, detik= 0;
+    System.out.println("Masukkan Jumlah Detik yang diinginkan : ");
+
+    int konversi = 0;
+    konversi=input.nextInt();
+
+    detik= (konversi%3600)%60;
+    menit= (konversi%3600)/60;
+
+    System.out.println("Inputan dari "+konversi+" detik sama dengan "+menit+ "menit "+detik+ "detik");
+    }
 }
 
 
