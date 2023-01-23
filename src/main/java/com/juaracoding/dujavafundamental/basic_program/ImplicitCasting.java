@@ -20,11 +20,11 @@ public class ImplicitCasting {
         long longDataSecond = dataFourth;
         float dataFifth = 565;
         double doubleDataSecond = dataFifth;
-    System.out.println("Short ke Double" +doubleData);
-    System.out.println("Char ke Long" +longData);
-    System.out.println("Int ke Float" +floatData);
-    System.out.println("Byte ke Long" +longDataSecond);
-    System.out.println("Float ke Double" +doubleDataSecond);
+    System.out.println("Short ke Double :" +doubleData);
+    System.out.println("Char ke Long :" +longData);
+    System.out.println("Int ke Float :" +floatData);
+    System.out.println("Byte ke Long :" +longDataSecond);
+    System.out.println("Float ke Double :" +doubleDataSecond);
     }
 }
 
