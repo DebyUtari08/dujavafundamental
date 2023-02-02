@@ -77,7 +77,7 @@ public class Praktikum4 {
     }
 
     private static void hitung_persegipjg() {
-        double panjang, lebar;
+        double panjang= 0, lebar=0;
 
         System.out.println("\n\n---- 2. Persegi Panjang ----");
         System.out.print("- Masukkan Panjang = ");
@@ -91,7 +91,7 @@ public class Praktikum4 {
     }
 
     private static void hitung_persegi() {
-        double panjang_sisi;
+        double panjang_sisi=0;
 
         System.out.println("\n\n---- 3. Persegi ----");
         System.out.print("- Masukkan Panjang sisi = ");
@@ -104,13 +104,14 @@ public class Praktikum4 {
     }
 
     private static void hitung_segitiga() {
-        double panjang_sisi, tinggi;
+        double panjang_sisi=0, tinggi=0;
 
         System.out.println("\n\n---- 4. Segitiga ----");
         System.out.print("- Masukkan Panjang Sisi = ");
         panjang_sisi = sc.nextDouble();
+        System.out.println("_Masukkan Tinggi =");
+        tinggi= sc.nextDouble();
 
-        tinggi = hitung_tinggisegitiga(panjang_sisi, 0.5 * panjang_sisi);
         luas = 0.5 * panjang_sisi * tinggi;
 
         output_hasil(luas);
