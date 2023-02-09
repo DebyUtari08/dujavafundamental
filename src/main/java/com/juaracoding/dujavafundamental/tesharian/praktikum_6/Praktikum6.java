@@ -17,6 +17,10 @@ public class Praktikum6 {
     public static void main(String[] args) {
         ArrayList<Integer> nilai = new ArrayList();
         Scanner Input = new Scanner(System.in);
+        String lagi= "Y";
+        while (lagi.equals("Y"));
+        Scanner yesno = new Scanner(System.in);
+
         System.out.print("Input Panjang Array:");
         int panjang = Input.nextInt();
         for (int i = 0; i < panjang; i++) {
@@ -35,6 +39,7 @@ public class Praktikum6 {
             }
         }
         System.out.println("Setelah di Sorting :" + nilai + "");
+        System.out.println("Apakah Ingin Menyorting lagi? (Y/N)");lagi = yesno.nextLine().toUpperCase();
     }
 }
 
