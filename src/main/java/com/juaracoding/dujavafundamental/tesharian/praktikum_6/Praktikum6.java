@@ -15,11 +15,9 @@ public class Praktikum6 {
 	Soal Nomor 1 Praktikum 6 Java Fundamental
     */
     public static void main(String[] args) {
+
         ArrayList<Integer> nilai = new ArrayList();
         Scanner Input = new Scanner(System.in);
-        String lagi= "Y";
-        while (lagi.equals("Y"));
-        Scanner yesno = new Scanner(System.in);
 
         System.out.print("Input Panjang Array:");
         int panjang = Input.nextInt();
@@ -28,6 +26,8 @@ public class Praktikum6 {
             int angka = Input.nextInt();
             nilai.add(angka);
         }
+
+
         System.out.println("Inputan Bilangan Bulat Sebelum di Sorting :" + nilai + "");
         for (int i = 0; i < nilai.size(); i++) {
             for (int j = 0; j < nilai.size() - 1; j++) {
@@ -38,6 +38,9 @@ public class Praktikum6 {
                 }
             }
         }
+        String lagi= "Y";
+        while (lagi.equals("Y"));
+        Scanner yesno = new Scanner(System.in);
         System.out.println("Setelah di Sorting :" + nilai + "");
         System.out.println("Apakah Ingin Menyorting lagi? (Y/N)");lagi = yesno.nextLine().toUpperCase();
     }
