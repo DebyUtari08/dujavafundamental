@@ -14,17 +14,27 @@ public class Praktikum6 {
     /*
 	Soal Nomor 1 Praktikum 6 Java Fundamental
     */
-    public static void main ( String [] args) {
-        ArrayList<Integer> nilai= new  ArrayList();
+    public static void main(String[] args) {
+        ArrayList<Integer> nilai = new ArrayList();
         Scanner Input = new Scanner(System.in);
         System.out.print("Input Panjang Array:");
-       int panjang = Input.nextInt();
-       for (int i=0; i<panjang; i++){
-           System.out.print("Index ke "+i+ ":");
-           int angka = Input.nextInt();
-           nilai.add(angka);
-       }
-       System.out.println("Inputan Bilangan Bulat Sebelum di Sorting :"+nilai+"");
+        int panjang = Input.nextInt();
+        for (int i = 0; i < panjang; i++) {
+            System.out.print("Index ke " + i + ":");
+            int angka = Input.nextInt();
+            nilai.add(angka);
+        }
+        System.out.println("Inputan Bilangan Bulat Sebelum di Sorting :" + nilai + "");
+        for (int i = 0; i < nilai.size(); i++) {
+            for (int j = 0; j < nilai.size() - 1; j++) {
+                if (nilai.get(j) > nilai.get(j + 1)) {
+                    int temp = nilai.get(j);
+                    nilai.set(j, nilai.get(j + 1));
+                    nilai.set(j + 1, temp);
+                }
+            }
+        }
+        System.out.println("Setelah di Sorting :" + nilai + "");
     }
 }
 
